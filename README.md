@@ -283,40 +283,8 @@ Key configuration points in the code:
 - Server port: `8000`
 - Host: `0.0.0.0` (in Docker)
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ## 👤 Author
 
 **Naitik**
 
 GitHub: [@naitik9928](https://github.com/naitik9928)
-
-## 🆘 Troubleshooting
-
-**Model not found error:**
-- Ensure `model.pkl` exists in the project root
-- Run `train.py` to generate the model
-
-**Port already in use:**
-- Change port: `uvicorn app:app --port 8001`
-
-**Import errors:**
-- Install dependencies: `pip install -r requirements.txt`
-
-**Docker build issues:**
-- Ensure Python 3.10 slim image is available
-- Check Dockerfile syntax (note: `workdir` should be `WORKDIR`)
-
-## 📞 Support
-
-For issues or questions, please open an issue on the GitHub repository.
-
----
-
-**Happy Predicting! 🎯**
